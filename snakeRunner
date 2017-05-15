@@ -2,8 +2,8 @@ import javax.swing.JFrame;
 
 public class SnakeRunner
 {
-  private static int final WIDTH = 1000;
-  private static int final HEIGHT = 700;
+  private static final int WIDTH = 1000;
+  private static final int HEIGHT = 700;
   
   public static void main(String[] args)
   {
