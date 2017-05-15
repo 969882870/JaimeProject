@@ -2,7 +2,7 @@ import javax.swing.JFrame;
 
 public class SnakeRunner
 {
-  private int final WIDTH = 500;
+  private static int final WIDTH = 500;
   
   public static void main(String[] args)
   {
