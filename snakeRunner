@@ -2,12 +2,13 @@ import javax.swing.JFrame;
 
 public class SnakeRunner
 {
-  private static int final WIDTH = 500;
+  private static int final WIDTH = 1000;
+  private static int final HEIGHT = 700;
   
   public static void main(String[] args)
   {
     JFrame frame = new JFrame("Snake");
-    frame.setSize(WIDTH, WIDTH);
+    frame.setSize(WIDTH, HEIGHT);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     
     final SnakeGUI snake = new SnakeGUI()
