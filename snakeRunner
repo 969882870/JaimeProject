@@ -1,1 +1,19 @@
+import javax.swing.JFrame;
+import javax.awt.KeyListener;
 
+public class SnakeRunner
+{
+  private int final WIDTH = 500;
+  
+  public static void main(String[] args)
+  {
+    JFrame frame = new JFrame("Snake");
+    frame.setSize(WIDTH, WIDTH);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
+    final SnakeGUI snake = new SnakeGUI()
+    frame.add(snake);
+    
+    frame.setVisible(true);
+  }
+}
